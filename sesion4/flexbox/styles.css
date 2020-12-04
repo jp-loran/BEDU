@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    /*flex-wrap: wrap-reverse;*/
+    /*flex-direction: ;*/
+
+    /*flex-flow: <flex-direction> <flex-wrap>; atajo */
+    justify-content: space-between; /*Mueve contenido en el eje x*/
+    /*align-items: center;*/ /*Mueve contenido en el eje y*/
+    /*align-content: space-around;*/
+    /*flex-flow: row wrap;*/
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+}
+.item{
+    background-color: antiquewhite;
+    width: 40px;
+    height: 50px;
+}

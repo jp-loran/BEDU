@@ -1,0 +1,14 @@
+.features{
+    display: grid;
+    /*grid-template-columns: repeat(4,300px);*/ /*con repeticion de valores en pixeles*/
+    /*grid-template-columns: 500px 1fr;*/ /*con fracciones y pixeles*/
+    grid-template-columns: 1fr 1fr; /*con solo fracciones*/
+
+}
+
+article{
+    background-color: cornsilk;
+    margin: 10px;
+    width: 40%;
+    height: 70px;
+}
